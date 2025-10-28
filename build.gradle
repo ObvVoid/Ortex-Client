@@ -1,8 +1,8 @@
-// Modernized build.gradle for Ortex-Client
+// build.gradle for Ortex-Client (updated)
 buildscript {
     repositories {
-        mavenCentral()               // Modern central repository
-        gradlePluginPortal()         // Needed for Shadow plugin
+        mavenCentral()
+        gradlePluginPortal()
         maven {
             name = "forge"
             url = "http://files.minecraftforge.net/maven"
